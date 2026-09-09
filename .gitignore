@@ -1,0 +1,36 @@
+# KiCad local state, locks, autosaves, and backups
+*-backups/
+fp-info-cache
+*.kicad_prl
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+_autosave-*
+~*.lck
+*~
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+# Generated manufacturing and assembly outputs
+gerber/
+gerbers/
+bom/
+assembly/
+3D-assembly/
+jlcpcb/
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+gerber*.zip
+*gerber*.zip
+*-bom.*
+ibom*.html
+*.xml
